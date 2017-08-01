@@ -10,7 +10,7 @@ function dP = derivP(P)
 % dP: Symbolic derivative of P
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

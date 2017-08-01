@@ -14,7 +14,7 @@ function k = cond_num(P, eigval, x, y)
 % k: condition number of P at given eigenvalue, eigenvectors
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Minor modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

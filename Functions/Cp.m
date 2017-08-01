@@ -11,7 +11,7 @@ function [Cp, iAk] = Cp(P)
 % iAk: inverse of A_k
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Minor modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

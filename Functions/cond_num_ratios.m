@@ -17,7 +17,7 @@ function [ratios, eigvals] = cond_num_ratios(h, L, P)
 % eigvals: Array of eigenvalues shared by L, P
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -94,17 +94,13 @@ for j = 1 : length(eigvals)
     kL = cond_num(L, curr_eigval, xL, yL);
     kP = cond_num(P, curr_eigval, xP, yP);
 
+    disp(['Current eigenvalue: ', num2str(double(curr_eigval))]);
     disp(['Condition number of P: ', num2str(double(kP))]);
     disp(['Condition number of L: ', num2str(double(kL))]);
 
     ratios(j) = vpa(kL / kP);
 
     status = double(j / (n * k) * 100);
-    disp([num2str(status),'% complete']);
+    disp([num2str(status), '% complete']);
 
 end
-        
-    
-    
-    
-    

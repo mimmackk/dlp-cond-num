@@ -12,7 +12,7 @@ function P = rand_matrix_poly(k, n, r)
 % P: Symbolic matrix poly (cell array of matrix coefficents A_0 to A_k)
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

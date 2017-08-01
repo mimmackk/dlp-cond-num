@@ -12,7 +12,7 @@ function [E, V] = eigpairs(P)
 % V: eigenvectors of P associated with each eigval
 %
 % AUTHORS
-% Written by ____
+% Written by Lucas Medina
 % Minor modifications by Kayden Mimmack & Kaizen Towfiq
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
