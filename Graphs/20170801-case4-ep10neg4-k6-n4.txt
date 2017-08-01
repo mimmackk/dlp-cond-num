@@ -1,0 +1,178 @@
+% Case 4: Fixed v with v_1 = 0, construct P with very large eigenvalue.
+% Here using D = D_k, so want A_k close to singular.
+
+% Copy 2nd to last row of A_k to last row, add epsilon to corner entry
+% Small epsilon -> A_k close to singular
+
+
+>> main(10^(-4), 6, 4, 4)
+Calculating condition number ratios for D in DLP, P...
+Current eigenvalue: 0.010654
+Condition number of P: 434.0199
+Condition number of L: 542.6407
+4.1667% complete
+Current eigenvalue: 0.41286-0.32784i
+Condition number of P: 6.2754
+Condition number of L: 14.3743
+8.3333% complete
+Current eigenvalue: 0.41286+0.32784i
+Condition number of P: 6.2754
+Condition number of L: 14.3743
+12.5% complete
+Current eigenvalue: -0.6987-0.16939i
+Condition number of P: 7.2921
+Condition number of L: 18.3837
+16.6667% complete
+Current eigenvalue: -0.6987+0.16939i
+Condition number of P: 7.2921
+Condition number of L: 18.3837
+20.8333% complete
+Current eigenvalue: -0.096296-0.76136i
+Condition number of P: 3.2288
+Condition number of L: 8.5349
+25% complete
+Current eigenvalue: -0.096296+0.76136i
+Condition number of P: 3.2288
+Condition number of L: 8.5349
+29.1667% complete
+Current eigenvalue: -0.78519-0.34466i
+Condition number of P: 4.1837
+Condition number of L: 12.5477
+33.3333% complete
+Current eigenvalue: -0.78519+0.34466i
+Condition number of P: 4.1837
+Condition number of L: 12.5477
+37.5% complete
+Current eigenvalue: 0.47898-0.90193i
+Condition number of P: 3.5369
+Condition number of L: 15.3294
+41.6667% complete
+Current eigenvalue: 0.47898+0.90193i
+Condition number of P: 3.5369
+Condition number of L: 15.3294
+45.8333% complete
+Current eigenvalue: -0.71568-0.80862i
+Condition number of P: 2.4528
+Condition number of L: 12.5873
+50% complete
+Current eigenvalue: -0.71568+0.80862i
+Condition number of P: 2.4528
+Condition number of L: 12.5873
+54.1667% complete
+Current eigenvalue: 1.1013-0.4357i
+Condition number of P: 3.0008
+Condition number of L: 21.4525
+58.3333% complete
+Current eigenvalue: 1.1013+0.4357i
+Condition number of P: 3.0008
+Condition number of L: 21.4525
+62.5% complete
+Current eigenvalue: 1.2212
+Condition number of P: 4.4221
+Condition number of L: 35.7369
+66.6667% complete
+Current eigenvalue: 0.083522-1.2536i
+Condition number of P: 10.9555
+Condition number of L: 99.6795
+70.8333% complete
+Current eigenvalue: 0.083522+1.2536i
+Condition number of P: 10.9555
+Condition number of L: 99.6795
+75% complete
+Current eigenvalue: -1.2578
+Condition number of P: 3.6171
+Condition number of L: 33.0625
+79.1667% complete
+Current eigenvalue: -0.13808-1.2676i
+Condition number of P: 11.391
+Condition number of L: 110.3897
+83.3333% complete
+Current eigenvalue: -0.13808+1.2676i
+Condition number of P: 11.391
+Condition number of L: 110.3897
+87.5% complete
+Current eigenvalue: 1.1823-1.4738i
+Condition number of P: 6.2096
+Condition number of L: 410.2831
+91.6667% complete
+Current eigenvalue: 1.1823+1.4738i
+Condition number of P: 6.2096
+Condition number of L: 410.2831
+95.8333% complete
+Current eigenvalue: -1580744.6069
+Condition number of P: 2409722.2729
+Condition number of L: 8.624307449727567e+37
+100% complete
+Warning: Imaginary parts of complex X and/or Y arguments ignored 
+> In main (line 40) 
+RESULTS:
+k = 6
+n = 4
+   1.0e+06 *
+
+   0.0000 + 0.0000i
+   0.0000 - 0.0000i
+   0.0000 + 0.0000i
+  -0.0000 - 0.0000i
+  -0.0000 + 0.0000i
+  -0.0000 - 0.0000i
+  -0.0000 + 0.0000i
+  -0.0000 - 0.0000i
+  -0.0000 + 0.0000i
+   0.0000 - 0.0000i
+   0.0000 + 0.0000i
+  -0.0000 - 0.0000i
+  -0.0000 + 0.0000i
+   0.0000 - 0.0000i
+   0.0000 + 0.0000i
+   0.0000 + 0.0000i
+   0.0000 - 0.0000i
+   0.0000 + 0.0000i
+  -0.0000 + 0.0000i
+  -0.0000 - 0.0000i
+  -0.0000 + 0.0000i
+   0.0000 - 0.0000i
+   0.0000 + 0.0000i
+  -1.5807 + 0.0000i
+
+||A_0|| = 
+  -39.4291    7.3710   23.7842   48.4398
+  -35.7959  -44.7922  -43.6595   35.8939
+  -33.3540   43.1201   36.0441   28.5559
+   12.0959   22.8662   43.4405    1.3377
+
+||A_1|| = 
+  -32.2398   43.9142   -3.2932    5.9033
+  -10.1411  -19.8694   14.8198   35.4100
+  -36.6069  -20.4466  -47.4772  -15.2121
+  -46.9110  -16.7064   34.2207   -5.3973
+
+||A_2|| = 
+  -44.5761   39.8486   20.6917   -3.5160
+  -32.2892  -38.1845   49.9492   26.3957
+   16.2808   48.8418  -21.2151   31.8204
+  -16.9171    3.9982   -8.5477  -39.9778
+
+||A_3|| = 
+  -32.1883  -16.4151   17.5391   24.5546
+  -14.0365  -32.4331   -3.1532   23.6267
+  -44.3295  -29.1053   41.2132    6.1861
+    2.1886   40.5154  -39.5988  -31.5806
+
+||A_4|| = 
+    9.7211   39.4942   -5.8278  -40.6629
+  -20.0063  -42.8547  -48.6717  -19.2633
+  -36.5877  -25.7513   39.7191   -4.3942
+  -28.7398  -44.6246  -30.3342  -39.8331
+
+||A_5|| = 
+   49.5390  -20.1756   13.1070   40.5135
+  -16.7907  -45.3649  -41.0108    3.3772
+  -20.2653    0.5428  -41.9138  -39.0846
+  -43.7955   26.1426   27.7241   32.5809
+
+||A_6|| = 
+  -16.1902  -45.1553   22.9709   19.2532
+  -20.6027   16.7916   20.7253    5.6670
+   24.6313   10.3468   28.1377  -10.3479
+   24.6314   10.3468   28.1377  -10.3479
